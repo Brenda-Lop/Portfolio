@@ -12,14 +12,14 @@ function App() {
     <div className="App">
 
 
-      <Homepage /> 
 
       <Routes>
-        <Route path='/aboutme' element={AboutMePage} /> 
-        <Route path='/details/squidgame' element={SquidPage} /> 
-        <Route path='/details/virtwallet' element={WalletPage} /> 
-        <Route path='/details/notdevastated' element={NotDevPage} /> 
-    </Routes>
+        <Route path='/' element={<Homepage />} /> 
+        <Route path='/aboutme' element={<AboutMePage />} /> 
+        <Route path='/details/squidgame' element={<SquidPage />} /> 
+        <Route path='/details/virtwallet' element={<WalletPage />} /> 
+        <Route path='/details/notdevastated' element={<NotDevPage />} /> 
+      </Routes>
      
       
     </div>
